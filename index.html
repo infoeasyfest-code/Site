@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EasyFest semplifica la gestione della cassa, dei prodotti e degli incassi durante feste ed eventi.">
+  <title>EasyFest | La gestione semplice del tuo evento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    Pensato per feste, sagre ed eventi dove ogni secondo conta
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navigazione principale">
+      <a class="brand" href="#top" aria-label="EasyFest home">
+        <img src="../AlpinFest/Resources/EasyFest-logo.png" alt="EasyFest - il gestionale semplice e veloce" class="brand-logo">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Apri menu</span>
+      </button>
+      <div class="nav-links" id="main-menu">
+        <a href="#funzionalita">Funzionalità</a>
+        <a href="#come-funziona">Come funziona</a>
+        <a href="#vantaggi">Vantaggi</a>
+        <a class="nav-cta" href="offerte.html">Scopri le offerte <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span>●</span> Organizza. Incassa. Riparti.</div>
+        <h1>La tua festa,<br><em>senza pensieri.</em></h1>
+        <p class="hero-text">EasyFest è il programma per gestire la cassa del tuo evento in modo ordinato: registri gli ordini, controlli i prodotti disponibili e sai sempre quanto hai incassato.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#demo">Guarda la demo <span>↓</span></a>
+          <a class="text-link" href="#funzionalita">Scopri cosa puoi fare <span>→</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>G</span><span>A</span><span>M</span><span>+</span></div>
+          <p><strong>Fatto per chi organizza davvero.</strong><br>Più controllo, meno caos al bancone.</p>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <div class="hero-card dashboard-card" id="demo">
+          <div class="dashboard-top">
+            <div><span class="status-dot"></span><span>Cassa aperta</span></div>
+            <span class="dashboard-date">Sabato, 12 ottobre</span>
+          </div>
+          <div class="dashboard-heading">
+            <div><small>INCASSO DI GIORNATA</small><strong id="total-value">€ 1.248,50</strong></div>
+            <span class="trend">↗ 18,4%</span>
+          </div>
+          <div class="mini-chart" aria-label="Andamento dell'incasso">
+            <svg viewBox="0 0 480 130" role="img" aria-hidden="true">
+              <defs><linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#f5bd37" stop-opacity=".34"/><stop offset="100%" stop-color="#f5bd37" stop-opacity="0"/></linearGradient></defs>
+              <path class="chart-area" d="M0 114 C35 104 46 88 77 94 S120 48 151 67 S196 74 222 48 S264 67 290 39 S325 56 352 23 S392 52 418 35 S451 22 480 6 V130 H0Z"/>
+              <path class="chart-line" d="M0 114 C35 104 46 88 77 94 S120 48 151 67 S196 74 222 48 S264 67 290 39 S325 56 352 23 S392 52 418 35 S451 22 480 6"/>
+              <circle cx="352" cy="23" r="5"></circle>
+            </svg>
+          </div>
+          <div class="dashboard-labels"><span>18:00</span><span>20:00</span><span>22:00</span><span>00:00</span></div>
+          <div class="dashboard-bottom">
+            <div><span class="tiny-icon green">⌁</span><p><small>ORDINI</small><strong>184</strong></p></div>
+            <div><span class="tiny-icon yellow">€</span><p><small>MEDIA ORDINE</small><strong>€ 6,78</strong></p></div>
+            <button class="play-button" type="button" aria-label="Simula un nuovo ordine">+</button>
+          </div>
+        </div>
+        <div class="floating-pill pill-order"><span class="pill-icon">✓</span><div><small>Nuovo ordine</small><strong>€ 18,50</strong></div></div>
+        <div class="floating-pill pill-stock"><span class="pill-icon">!</span><div><small>Scorte aggiornate</small><strong>Birra bionda</strong></div></div>
+      </div>
+    </section>
+
+    <section class="brand-strip">
+      <div class="container brand-strip-inner">
+        <span>UNA SOLUZIONE UNICA PER</span>
+        <div class="strip-items"><span>FESTE DI PAESE</span><span>SAGRE</span><span>EVENTI SPORTIVI</span><span>ASSOCIAZIONI</span></div>
+      </div>
+    </section>
+
+    <section class="section features-section" id="funzionalita">
+      <div class="container">
+        <div class="section-heading reveal"><div><span class="section-kicker">COSA PUOI FARE</span><h2>Gestisci tutto,<br><em>senza confusione.</em></h2></div><p>EasyFest riunisce in un unico posto le attività principali del tuo evento: vendite, prodotti, stampanti e riepilogo degli incassi.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-main reveal"><div class="feature-number">01</div><div class="feature-icon icon-cash">€</div><h3>Registra ogni ordine</h3><p>Seleziona i prodotti, indica il pagamento e ottieni subito il totale. Meno errori e file più veloci al banco.</p><a href="#demo" class="card-link">Prova la demo <span>→</span></a><div class="receipt-lines"><span></span><span></span><span></span><b>€ 24,50</b></div></article>
+          <article class="feature-card reveal"><div class="feature-number">02</div><div class="feature-icon icon-box">□</div><h3>Controlla il menu</h3><p>Modifica prezzi e categorie, sospendi un prodotto finito e segnala con un colore ciò che sta per terminare.</p><div class="stock-preview"><span class="stock-ok"></span><span class="stock-ok"></span><span class="stock-low"></span><span class="stock-low"></span></div></article>
+          <article class="feature-card reveal"><div class="feature-number">03</div><div class="feature-icon icon-chart">↗</div><h3>Chiudi la giornata</h3><p>Vedi ordini e incasso totale, analizza le vendite per prodotto e genera il report da conservare.</p><div class="bar-preview"><i style="height:38%"></i><i style="height:56%"></i><i style="height:48%"></i><i style="height:78%"></i><i style="height:68%"></i><i style="height:94%"></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="come-funziona">
+      <div class="container process-wrap">
+        <div class="process-copy reveal"><span class="section-kicker">COME FUNZIONA</span><h2>Tre passaggi<br>e sei pronto.</h2><p>Configuri il programma prima dell’evento. Durante il servizio lavori più velocemente e alla fine hai già tutti i numeri che ti servono.</p><a href="#contatti" class="button button-dark">Richiedi informazioni <span>→</span></a></div>
+        <div class="steps">
+          <div class="step reveal"><span>1</span><div><h3>Inserisci prodotti e prezzi</h3><p>Prepara il menu con nome, categoria e prezzo. Puoi personalizzare anche i dati dello scontrino.</p></div></div>
+          <div class="step reveal"><span>2</span><div><h3>Registra e stampa gli ordini</h3><p>Durante la festa aggiungi i prodotti all’ordine, scegli il pagamento e stampa lo scontrino quando serve.</p></div></div>
+          <div class="step reveal"><span>3</span><div><h3>Controlla il riepilogo finale</h3><p>A fine giornata consulta incasso, quantità vendute e storico. Puoi anche esportare il report.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits-section" id="vantaggi">
+      <div class="container benefits-grid">
+        <div class="benefit-visual reveal"><div class="poster"><span class="poster-small">UN EVENTO ORGANIZZATO È</span><strong>PIÙ TEMPO<br><em>PER LA FESTA.</em></strong><span class="poster-line"></span><small>EasyFest / tutto più semplice</small></div><div class="sticker">MENO ERRORI<br><b>PIÙ CONTROLLO</b></div></div>
+        <div class="benefit-copy reveal"><span class="section-kicker">PERCHÉ EASYFEST</span><h2>Il programma<br>che lavora <em>con te.</em></h2><p>EasyFest è pensato per chi organizza feste e sagre: è chiaro da usare, funziona sul computer della cassa e raccoglie in modo ordinato le informazioni dell’evento.</p><ul class="check-list"><li><span>✓</span><div><strong>Facile da imparare</strong><small>Volontari e collaboratori capiscono subito dove cliccare.</small></div></li><li><span>✓</span><div><strong>Dati sempre disponibili</strong><small>Ordini, prodotti e incassi restano salvati sul computer.</small></div></li><li><span>✓</span><div><strong>Adatto al tuo evento</strong><small>Personalizzi menu, logo, stampanti e impostazioni.</small></div></li></ul></div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contatti">
+      <div class="container cta-inner reveal"><div><span class="section-kicker light">VUOI SAPERNE DI PIÙ?</span><h2>Organizza meglio<br><em>il tuo prossimo evento.</em></h2></div><div class="cta-actions"><p>Scrivici per capire come EasyFest può aiutarti a gestire la tua festa.</p><a class="button button-light" href="mailto:info@easyfest.it">Contattaci <span>→</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#top"><img src="../AlpinFest/Resources/EasyFest-logo.png" alt="EasyFest" class="footer-logo"></a><p>La gestione semplice del tuo evento.</p><span class="copyright">© <span id="year"></span> EasyFest</span></div></footer>
+  <div class="toast" role="status" aria-live="polite">Ordine aggiunto alla demo</div>
+  <script src="script.js"></script>
+</body>
+</html>
